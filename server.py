@@ -8,9 +8,9 @@ SERVER =socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
-CERTIFICATE = "D:\sem4\cn\cnwhiteboard\server.crt"
-KEY = "D:\sem4\cn\cnwhiteboard\server.key"
-CLIENT_CERTIFICATE = "D:\sem4\cn\cnwhiteboard\client.crt"
+CERTIFICATE = "D:\path\to\whiteboard\server.crt"
+KEY = "D:\path\to\whiteboard\server.key"
+CLIENT_CERTIFICATE = "D:\path\to\whiteboard\client.crt"
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
