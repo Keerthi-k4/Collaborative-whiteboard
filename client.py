@@ -5,16 +5,16 @@ import tkinter as tk
 
 HEADER = 64
 PORT = 5051
-SERVER = "192.168.64.40"  # Change this to the IP address of your server
+SERVER = "XX.XX.XX"  # Change this to the IP address of your server
 hostname='example.com'
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
 
-CLIENT_CERTIFICATE = "D:\sem4\cn\cnwhiteboard\client.crt"
-SERVER_CERTIFICATE = "D:\sem4\cn\cnwhiteboard\server.crt"
+CLIENT_CERTIFICATE = "D:\path\to\whiteboarad\client.crt"
+SERVER_CERTIFICATE = "D:\path\to\whiteboard\server.crt"
 
-CLIENT_KEY = "D:\sem4\cn\cnwhiteboard\client.key"
+CLIENT_KEY = "D:\path\to\whiteboard\client.key"
 
 # Create an SSL context for the client
 #context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
